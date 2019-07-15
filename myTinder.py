@@ -5,7 +5,18 @@
 # The name of the database will be 'tinder'.
 # There will be 2 tables in the database named as 
 # 1. "users"  ( for all the users' details.)
+#   The name of all the columns are:-
+#       1."user_id" (Stores the user identification number(unique) of the user)
+#       2. "name"  (name of the user)
+#       3. "email"   (email address of the user)
+#       4. "password"   (password of the user to log in their account)
+#       5. "gender"   (gender of the user)
+#       6. "city"   (present city of the user)
 # 2. "proposal"  (proposal details.i.e.:-this table will contain all the details of all the proposals.)
+#   The name of all the columns are:-
+#       1. "proposal_id"
+#       2. "romeo_id"
+#       3. "juliet_id"
 
 import mysql.connector
 
