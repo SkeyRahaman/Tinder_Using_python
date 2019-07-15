@@ -1,3 +1,12 @@
+# This project is going to use some SQL tables.
+# So we need to create the SQL database for this program explicitly.
+# All the required name of the tables and rows and columns are listed below.
+# The database is created using XAMPP application and local server.
+# The name of the database will be 'tinder'.
+# There will be 2 tables in the database named as 
+# 1. "users"  ( for all the users' details.)
+# 2. "proposal"  (proposal details.i.e.:-this table will contain all the details of all the proposals.)
+
 import mysql.connector
 
 
