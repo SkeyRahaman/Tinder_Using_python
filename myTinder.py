@@ -3,7 +3,7 @@
 # All the required name of the tables and rows and columns are listed below.
 # The database is created using XAMPP application and local server.
 # The name of the database will be 'tinder'.
-# There will be 2 tables in the database named as 
+# There will be 3 tables in the database named as
 # 1. "users"  ( for all the users' details.)
 #   The name of all the columns are:-
 #       1."user_id" (Stores the user identification number(unique) of the user)
@@ -17,6 +17,7 @@
 #       1. "proposal_id"
 #       2. "romeo_id"
 #       3. "juliet_id"
+# 3. "current_login_profile" (This file will contain loging details)
 from tkinter import *
 import tkinter.messagebox
 import mysql.connector
